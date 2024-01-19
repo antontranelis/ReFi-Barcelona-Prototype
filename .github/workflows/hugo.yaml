@@ -37,7 +37,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
@@ -77,3 +77,25 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v3
 
+      # Neuer Schritt zum Sammeln und Senden der JSON-URLs nach dem Deployment
+      - name: Collect and send JSON URLs
+        run: |
+          BASE_URL="${{ steps.deployment.outputs.page_url }}"
+
+          echo "Waiting for deployment to complete..."
+          sleep 60
+
+          # Gehe durch alle JSON-Dateien im 'public/projects'-Verzeichnis
+          # (Anpassen, falls die Dateien an einem anderen Ort gespeichert sind)
+          find public/projects -name "*.json" | while read jsonFile; do
+              # Erstelle die vollständige URL
+              url="${BASE_URL}/$(echo $jsonFile | sed 's|public||')"
+              # Senden der URL an Ihre API
+              curl -X 'POST' \
+                'https://test-index.murmurations.network/v2/nodes' \
+                -H 'accept: application/json' \
+                -H 'Content-Type: application/json' \
+                -d '{
+                "profile_url": $url
+              }'
+          done
