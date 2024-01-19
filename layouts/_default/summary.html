@@ -1,0 +1,9 @@
+<article>
+	<h1><a href="{{ .Permalink }}">{{  .Params.Name }}</a></h1>
+	{{ range .Params.tags }}
+	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+	{{ end }}
+	<div>
+		{{ .Description }}
+	</div>
+</article>

@@ -1,0 +1,11 @@
+{
+    "data": [
+      {{- range .Pages -}}
+      {
+        "title": "{{ .Title }}",
+        "date": "{{ .Date }}"
+      }
+      {{- end -}}
+    ]
+  }
+  

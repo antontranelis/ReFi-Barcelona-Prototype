@@ -1,0 +1,6 @@
+{
+  "name": "{{ .Name }}",
+  "description": "{{ .Description }}",
+  "tags": [{{ range .Params.tags }}"{{ . }}",{{ end }}],
+  "content": {{ .Content | plainify | jsonify }}
+}

@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'ReFi Barcelona'
+theme = "smol"
+
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    isPlainText = true
+    extension = "json"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "JSON"]
+
+[[menu.main]]
+  identifier = "map"
+  name = "Map"
+  url = "/map/"
+  weight = 10
