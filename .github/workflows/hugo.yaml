@@ -87,9 +87,9 @@ jobs:
 
           # Gehe durch alle JSON-Dateien im 'public/projects'-Verzeichnis
           # (Anpassen, falls die Dateien an einem anderen Ort gespeichert sind)
-          find projects -name "*.json" | while read jsonFile; do
+          for jsonFile in $(find projects -name "*.json"); do
               # Erstelle die vollständige URL
-              url="${BASE_URL}/$(echo $jsonFile | sed 's|public||')"
+              url="${BASE_URL}/${jsonFile}"
               # Senden der URL an Ihre API
               curl -X 'POST' \
                 'https://test-index.murmurations.network/v2/nodes' \
