@@ -8,6 +8,7 @@ tags:
   - Regeneration
   - Finance
   - Web3
+  - DAO
 URLs:
   - name: telegram
     url: https://t.me/akashabarcelona
