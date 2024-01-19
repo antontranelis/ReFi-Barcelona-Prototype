@@ -78,7 +78,7 @@ jobs:
         uses: actions/deploy-pages@v3
 
       # Neuer Schritt zum Sammeln und Senden der JSON-URLs nach dem Deployment
-      - name: Collect and send JSON URLs
+      - name: Collect and send JSON URLs to Murmurations
         run: |
           BASE_URL="${{ steps.deployment.outputs.page_url }}"
 
@@ -87,7 +87,7 @@ jobs:
 
           # Gehe durch alle JSON-Dateien im 'public/projects'-Verzeichnis
           # (Anpassen, falls die Dateien an einem anderen Ort gespeichert sind)
-          find public/projects -name "*.json" | while read jsonFile; do
+          find projects -name "*.json" | while read jsonFile; do
               # Erstelle die vollständige URL
               url="${BASE_URL}/$(echo $jsonFile | sed 's|public||')"
               # Senden der URL an Ihre API
