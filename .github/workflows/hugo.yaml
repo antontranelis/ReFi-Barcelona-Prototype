@@ -69,6 +69,7 @@ jobs:
         id: collect_urls
         run: |
           urls=$(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}" \;)
+          echo "Collected URLs: $urls"
           echo "::set-output name=jsonUrls::$urls"
 
   # Deployment job
