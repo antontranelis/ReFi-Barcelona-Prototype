@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title></title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+	<header>
+
+	<div class="header">
+		<a href="https://example.org/">
+			<img src="/DFoyNrzy_400x400.png" alt="Beschreibung"
+				style="float: left;width: 50px;height: 50px;">
+			<h1 style="  position: relative;top: 8px;left: 10px;">ReFi Barcelona</h1>
+	</div>
+	</a>
+
+	<br>
+	<div style="float: right;"></div><br>
+	<p>
+	<nav>
+		<a href="/"><b>List</b></a>
+		
+		
+		<a href="/map/" style="margin-left: 10px;"><b>Map</b></a>
+		
+	</nav>
+	</p>
+	
+</header>
+	
+<div id="mapid" style="height: 500px;"></div>
+<script>
+    var mymap = L.map('mapid').setView([41.40153558289848,2.1591567993164067], 12); 
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(mymap);
+
+    
+    var projects = [
+        
+        {
+            "name": "AKASHAHub",
+            "description": "AKASHA Hub serves as a beacon in the intersection of technology, sustainability, and community-driven innovation. Established in 2017, it has been instrumental in fostering the growth of the web3 ecosystem and aligns closely with the regenerative finance movement.",
+            "lat":  41.41091844029827 ,
+            "lng":  2.191203832626343 ,
+            "url": "/projects/akasha_hub/",
+            "tags": ["Web3","Technology","Sustainability","Community","EthereumFoundation"]
+        },
+        
+        {
+            "name": "Coop 57",
+            "description": "Explore the impact of Coop 57 in the realm of community finance and social investment. Learn how they contribute to economic empowerment and sustainable development.",
+            "lat":  41.37642615680807 ,
+            "lng":  2.1389651298522954 ,
+            "url": "/projects/coop-57/",
+            "tags": ["CommunityFinance","SocialInvestment","EconomicEmpowerment"]
+        },
+        
+        {
+            "name": "Mas Les Vinyes",
+            "description": "Explore the practices of Mas Les Vinyes in regenerative agriculture and sustainable farming. Learn how the farm contributes to ecological balance, biodiversity, and sustainable food production.",
+            "lat":  null ,
+            "lng":  null ,
+            "url": "/projects/mas-les-vinyes/",
+            "tags": ["MasLesVinyes","RegenerativeAgriculture","SustainableFarming"]
+        },
+        
+        {
+            "name": "Plastiks",
+            "description": "Plastiks is pioneering the use of blockchain technology to tackle plastic waste. Based in Barcelona, it has gained traction through innovative solutions and significant partnerships, including one with FC Barcelona.",
+            "lat":  null ,
+            "lng":  null ,
+            "url": "/projects/plastiks/",
+            "tags": ["Plastiks","ReFiProject","Sustainability","Partnerships","FCBarcelona"]
+        },
+        
+        {
+            "name": "ReFi Barcelona",
+            "description": "ReFi Barcelona (ReFi BCN) is an initiative aimed at integrating regenerative finance principles within the unique context of Barcelona.",
+            "lat":  41.38324879874266 ,
+            "lng":  2.174606323242188 ,
+            "url": "/projects/refi-barcelona/",
+            "tags": ["Barcelona","ReFi","ReFi DAO","ReFiBCN","LocalNode","Web3"]
+        },
+        
+        {
+            "name": "ReFi DAO",
+            "description": "ReFi DAO is a network society to regenerate the earth.",
+            "lat":  null ,
+            "lng":  null ,
+            "url": "/projects/refi-dao/",
+            "tags": ["ReFi DAO","ReFi","Regeneration","Finance","Web3"]
+        },
+        
+    ];
+
+    projects.forEach(function(project) {
+        if(project.lat) {
+        var marker = L.marker([project.lat, project.lng]).addTo(mymap);
+        marker.bindPopup(`<a href=${project.url}><h2>${project.name}</h2></a>${project.tags.map(tag => `<a href="/tags/${tag.toLowerCase()}/">#${tag}</a>`).join(' ')}<br><br>` + project.description);
+    }
+    });
+    
+</script>
+
+	<footer>
+	<p>&copy; 2024 <a href="https://example.org/"><b>ReFi Barcelona</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

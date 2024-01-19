@@ -1,11 +1,165 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on ReFi Barcelona</title>
     <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on ReFi Barcelona</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Barcelona</title>
+      <link>https://example.org/tags/barcelona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/barcelona/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Community</title>
+      <link>https://example.org/tags/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CommunityFinance</title>
+      <link>https://example.org/tags/communityfinance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/communityfinance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EconomicEmpowerment</title>
+      <link>https://example.org/tags/economicempowerment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/economicempowerment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EthereumFoundation</title>
+      <link>https://example.org/tags/ethereumfoundation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/ethereumfoundation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FCBarcelona</title>
+      <link>https://example.org/tags/fcbarcelona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/fcbarcelona/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finance</title>
+      <link>https://example.org/tags/finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LocalNode</title>
+      <link>https://example.org/tags/localnode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/localnode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MasLesVinyes</title>
+      <link>https://example.org/tags/maslesvinyes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/maslesvinyes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partnerships</title>
+      <link>https://example.org/tags/partnerships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/partnerships/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plastiks</title>
+      <link>https://example.org/tags/plastiks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/plastiks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReFi</title>
+      <link>https://example.org/tags/refi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/refi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReFi DAO</title>
+      <link>https://example.org/tags/refi-dao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/refi-dao/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReFiBCN</title>
+      <link>https://example.org/tags/refibcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/refibcn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReFiProject</title>
+      <link>https://example.org/tags/refiproject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/refiproject/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regeneration</title>
+      <link>https://example.org/tags/regeneration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/regeneration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RegenerativeAgriculture</title>
+      <link>https://example.org/tags/regenerativeagriculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/regenerativeagriculture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SocialInvestment</title>
+      <link>https://example.org/tags/socialinvestment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/socialinvestment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sustainability</title>
+      <link>https://example.org/tags/sustainability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/sustainability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SustainableFarming</title>
+      <link>https://example.org/tags/sustainablefarming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/sustainablefarming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://example.org/tags/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web3</title>
+      <link>https://example.org/tags/web3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/web3/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

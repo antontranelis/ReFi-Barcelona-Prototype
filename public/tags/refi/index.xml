@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ReFi on ReFi Barcelona</title>
+    <link>https://example.org/tags/refi/</link>
+    <description>Recent content in ReFi on ReFi Barcelona</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/tags/refi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/projects/refi-barcelona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/refi-barcelona/</guid>
+      <description>ReFi Barcelona Page under construction 🚧 👷 🏗️.Q</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/projects/refi-dao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/refi-dao/</guid>
+      <description>ReFi DAO Our mission is focused on developing strategic services and public goods for the Regenerative Finance (ReFi) ecosystem including movement-wide sense-making, education, opportunity development, fundraising support, onboarding and empowerment through a blend of online platforms, multimedia, and community coordination.&#xA;Central to our work is incubating and supporting the development of ReFi Local Nodes across all major regions in the world. These local communities are pivotal in championing ReFi solutions on the ground and enacting a cosmo-local network for the regenerative economy.</description>
+    </item>
+  </channel>
+</rss>

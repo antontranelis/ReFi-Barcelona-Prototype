@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FCBarcelona on ReFi Barcelona</title>
+    <link>https://example.org/tags/fcbarcelona/</link>
+    <description>Recent content in FCBarcelona on ReFi Barcelona</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/tags/fcbarcelona/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/projects/plastiks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/plastiks/</guid>
+      <description>Plastiks Summary: Plastiks is pioneering the use of blockchain technology to tackle plastic waste. Based in Barcelona, it has gained traction through innovative solutions and significant partnerships, including one with FC Barcelona.&#xA;Main Content:&#xA;Introduction At the intersection of sustainability and technology, Plastiks stands out for its commitment to reducing plastic waste through the tokenization of recycling initiatives.&#xA;Project Highlights&#xA;Implemented a system for rewarding sustainable practices related to plastic use and recycling.</description>
+    </item>
+  </channel>
+</rss>

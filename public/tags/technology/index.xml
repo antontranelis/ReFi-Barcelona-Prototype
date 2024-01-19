@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on ReFi Barcelona</title>
+    <link>https://example.org/tags/technology/</link>
+    <description>Recent content in Technology on ReFi Barcelona</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/projects/akasha_hub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/akasha_hub/</guid>
+      <description>Summary: AKASHA Hub serves as a beacon in the intersection of technology, sustainability, and community-driven innovation. Established in 2017, it has been instrumental in fostering the growth of the web3 ecosystem and aligns closely with the regenerative finance movement.&#xA;Introduction AKASHA Hub, based in Barcelona, operates with the core mission of integrating web3 technologies to promote sustainability and positive social change. It traces its origins to the early days of the Ethereum Foundation, indicating a deep-rooted history in blockchain innovation.</description>
+    </item>
+  </channel>
+</rss>

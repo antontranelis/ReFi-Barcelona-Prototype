@@ -1,11 +1,5 @@
-{
-    "data": [
-      {{- range .Pages -}}
-      {
-        "title": "{{ .Title }}",
-        "date": "{{ .Date }}"
-      }
-      {{- end -}}
-    ]
-  }
-  
+  [{{ range $index, $element := .Pages }}
+        {
+          "name": "{{ $element.Params.Name }}"
+        },{{ if lt $index (sub (len .Pages) 1) }},{{ end }}
+  {{ end }}]

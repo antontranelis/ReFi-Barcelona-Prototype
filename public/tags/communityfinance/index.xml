@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CommunityFinance on ReFi Barcelona</title>
+    <link>https://example.org/tags/communityfinance/</link>
+    <description>Recent content in CommunityFinance on ReFi Barcelona</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/tags/communityfinance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/projects/coop-57/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/coop-57/</guid>
+      <description>Summary: Explore the impact of Coop 57 in the realm of community finance and social investment. Learn how they contribute to economic empowerment and sustainable development.&#xA;Main Content:&#xA;Community Finance Model&#xA;Introduces Coop 57&amp;rsquo;s unique community finance model, emphasizing the role of social investment in supporting local initiatives and businesses. Describes the principles that guide their financial practices. Social Investment Projects&#xA;Details specific projects funded by Coop 57, showcasing the diversity of initiatives they support.</description>
+    </item>
+  </channel>
+</rss>

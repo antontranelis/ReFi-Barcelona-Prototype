@@ -1,7 +1,25 @@
-{
-    "data": [{
-        "title": "Beispiel Titel",
-        "date": "2024-01-18 00:00:00 +0000 UTC"
-      }]
-  }
+  [
+        {
+          "name": "AKASHAHub"
+        },
   
+        {
+          "name": "Coop 57"
+        },
+  
+        {
+          "name": "Mas Les Vinyes"
+        },
+  
+        {
+          "name": "Plastiks"
+        },
+  
+        {
+          "name": "ReFi Barcelona"
+        },
+  
+        {
+          "name": "ReFi DAO"
+        },
+  ]

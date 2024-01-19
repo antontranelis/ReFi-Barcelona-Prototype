@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on My New Hugo Site</title>
+    <title>Projects on ReFi Barcelona</title>
     <link>https://example.org/projects/</link>
-    <description>Recent content in Projects on My New Hugo Site</description>
+    <description>Recent content in Projects on ReFi Barcelona</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beispiel Titel</title>
-      <link>https://example.org/projects/test/</link>
-      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/test/</guid>
-      <description>Hier beginnt der Inhalt deiner Markdown-Datei.</description>
+      <title></title>
+      <link>https://example.org/projects/akasha_hub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/akasha_hub/</guid>
+      <description>Summary: AKASHA Hub serves as a beacon in the intersection of technology, sustainability, and community-driven innovation. Established in 2017, it has been instrumental in fostering the growth of the web3 ecosystem and aligns closely with the regenerative finance movement.&#xA;Introduction AKASHA Hub, based in Barcelona, operates with the core mission of integrating web3 technologies to promote sustainability and positive social change. It traces its origins to the early days of the Ethereum Foundation, indicating a deep-rooted history in blockchain innovation.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/projects/coop-57/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/coop-57/</guid>
+      <description>Summary: Explore the impact of Coop 57 in the realm of community finance and social investment. Learn how they contribute to economic empowerment and sustainable development.&#xA;Main Content:&#xA;Community Finance Model&#xA;Introduces Coop 57&amp;rsquo;s unique community finance model, emphasizing the role of social investment in supporting local initiatives and businesses. Describes the principles that guide their financial practices. Social Investment Projects&#xA;Details specific projects funded by Coop 57, showcasing the diversity of initiatives they support.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/projects/mas-les-vinyes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/mas-les-vinyes/</guid>
+      <description>Regenerative Agriculture Practices Details Mas Les Vinyes&amp;rsquo;s regenerative agriculture practices, emphasizing soil health, crop rotation, and permaculture principles. Discusses the ecological benefits of regenerative agriculture. Sustainable Farming Techniques&#xA;Explores sustainable farming techniques employed at Mas Les Vinyes, including organic farming, agroforestry, and water conservation methods. Showcases the farm&amp;rsquo;s commitment to minimizing environmental impact. Biodiversity Conservation Efforts&#xA;Highlights initiatives to conserve biodiversity on the farm, such as habitat restoration, protection of native species, and pollinator-friendly practices.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/projects/plastiks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/plastiks/</guid>
+      <description>Plastiks Summary: Plastiks is pioneering the use of blockchain technology to tackle plastic waste. Based in Barcelona, it has gained traction through innovative solutions and significant partnerships, including one with FC Barcelona.&#xA;Main Content:&#xA;Introduction At the intersection of sustainability and technology, Plastiks stands out for its commitment to reducing plastic waste through the tokenization of recycling initiatives.&#xA;Project Highlights&#xA;Implemented a system for rewarding sustainable practices related to plastic use and recycling.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/projects/refi-barcelona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/refi-barcelona/</guid>
+      <description>ReFi Barcelona Page under construction 🚧 👷 🏗️.Q</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/projects/refi-dao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/refi-dao/</guid>
+      <description>ReFi DAO Our mission is focused on developing strategic services and public goods for the Regenerative Finance (ReFi) ecosystem including movement-wide sense-making, education, opportunity development, fundraising support, onboarding and empowerment through a blend of online platforms, multimedia, and community coordination.&#xA;Central to our work is incubating and supporting the development of ReFi Local Nodes across all major regions in the world. These local communities are pivotal in championing ReFi solutions on the ground and enacting a cosmo-local network for the regenerative economy.</description>
     </item>
   </channel>
 </rss>

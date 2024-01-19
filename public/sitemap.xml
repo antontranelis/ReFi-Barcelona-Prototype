@@ -2,17 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/projects/test/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+    <loc>https://example.org/map/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+    <loc>https://example.org/projects/akasha_hub/</loc>
   </url><url>
-    <loc>https://example.org/projects/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+    <loc>https://example.org/projects/coop-57/</loc>
+  </url><url>
+    <loc>https://example.org/projects/mas-les-vinyes/</loc>
+  </url><url>
+    <loc>https://example.org/projects/plastiks/</loc>
+  </url><url>
+    <loc>https://example.org/projects/refi-barcelona/</loc>
+  </url><url>
+    <loc>https://example.org/projects/refi-dao/</loc>
+  </url><url>
+    <loc>https://example.org/tags/barcelona/</loc>
   </url><url>
     <loc>https://example.org/categories/</loc>
   </url><url>
+    <loc>https://example.org/tags/community/</loc>
+  </url><url>
+    <loc>https://example.org/tags/communityfinance/</loc>
+  </url><url>
+    <loc>https://example.org/tags/economicempowerment/</loc>
+  </url><url>
+    <loc>https://example.org/tags/ethereumfoundation/</loc>
+  </url><url>
+    <loc>https://example.org/tags/fcbarcelona/</loc>
+  </url><url>
+    <loc>https://example.org/tags/finance/</loc>
+  </url><url>
+    <loc>https://example.org/tags/localnode/</loc>
+  </url><url>
+    <loc>https://example.org/tags/maslesvinyes/</loc>
+  </url><url>
+    <loc>https://example.org/tags/partnerships/</loc>
+  </url><url>
+    <loc>https://example.org/tags/plastiks/</loc>
+  </url><url>
+    <loc>https://example.org/projects/</loc>
+  </url><url>
+    <loc>https://example.org/tags/refi/</loc>
+  </url><url>
+    <loc>https://example.org/</loc>
+  </url><url>
+    <loc>https://example.org/tags/refi-dao/</loc>
+  </url><url>
+    <loc>https://example.org/tags/refibcn/</loc>
+  </url><url>
+    <loc>https://example.org/tags/refiproject/</loc>
+  </url><url>
+    <loc>https://example.org/tags/regeneration/</loc>
+  </url><url>
+    <loc>https://example.org/tags/regenerativeagriculture/</loc>
+  </url><url>
+    <loc>https://example.org/tags/socialinvestment/</loc>
+  </url><url>
+    <loc>https://example.org/tags/sustainability/</loc>
+  </url><url>
+    <loc>https://example.org/tags/sustainablefarming/</loc>
+  </url><url>
     <loc>https://example.org/tags/</loc>
+  </url><url>
+    <loc>https://example.org/tags/technology/</loc>
+  </url><url>
+    <loc>https://example.org/tags/web3/</loc>
   </url>
 </urlset>
