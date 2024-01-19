@@ -5,5 +5,6 @@
           "image": "{{ $element.Params.Image }}",
           "longitude": "{{ $element.Params.Longitude }}",
           "latitude": "{{ $element.Params.Latitude }}",
+          "tags": [{{ range $index2, $tag := $element.Params.tags }}"{{ $tag }}"{{ if lt $index2 (sub (len $element.Params.tags) 1) }},{{ end }}{{ end }}]
         },{{ if lt $index (sub (len .Pages) 1) }},{{ end }}
   {{ end }}]
