@@ -25,7 +25,7 @@
     projects.forEach(function(project) {
         if(project.lat) {
         var marker = L.marker([project.lat, project.lng]).addTo(mymap);
-        marker.bindPopup(`<a href=${project.url}><h2>${project.name}</h2></a>${project.tags.map(tag => `<a href="/tags/${tag.toLowerCase()}/">#${tag}</a>`).join(' ')}<br><br>` + project.description);
+        marker.bindPopup(`<a href=${project.url}><h2>${project.name}</h2></a>${project.tags.map(tag => `<a href="tags/${tag.toLowerCase()}/">#${tag}</a>`).join(' ')}<br><br>` + project.description);
     }
     });
     
