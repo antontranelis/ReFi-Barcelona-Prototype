@@ -64,6 +64,8 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
+      - name: List files in working directory
+        run: ls -la
 
   # Deployment job
   deploy:
@@ -76,9 +78,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-
-      - name: List files in public directory
-        run: ls -R public/
 
       # Neuer Schritt zum Sammeln und Senden der JSON-URLs nach dem Deployment
       - name: Collect and send JSON URLs to Murmurations
