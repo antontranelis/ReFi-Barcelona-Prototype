@@ -1,6 +1,13 @@
+{{ $originalContext := . }}
+
 {
-  "name": "{{ .Name }}",
-  "description": "{{ .Description }}",
-  "tags": [{{ range .Params.tags }}"{{ . }}",{{ end }}],
+  "name": "{{ .Params.Name }}",
+  "description": "{{ .Params.Description }}",
+  "longitude": "{{ .Params.Longitude }}",
+  "latitude": "{{ .Params.Latitude }}",
+  "tags": [{{ range $index2, $tag := .Params.Tags }}{{ with $originalContext.Params.Tags }}"{{ $tag }}"{{ if lt $index2 (sub (len $originalContext.Params.Tags) 1) }},{{ end }}{{ end }}{{ end }}],
+  "URLs": [{{ range $index2, $url := .Params.urls }}{{ with $originalContext.Params.Tags }}{"name": "{{ $url.name }}", "url": "{{ $url.url }}" }{{ if lt $index2 (sub (len $originalContext.Params.urls) 1) }},{{ end }}{{ end }}{{ end }}],
+  "image": "{{ .Params.Image }}",
+  "header_image": "{{ .Params.Header_Image }}",
   "content": {{ .Content | plainify | jsonify }}
 }
