@@ -90,6 +90,7 @@ jobs:
         run: |
           echo "Waiting for deployment to complete..."
           sleep 10
+          echo urls
           echo "Sending JSON URLs to API..."
           for url in ${{ needs.build-and-deploy.outputs.jsonUrls }}
           do
