@@ -66,13 +66,10 @@ jobs:
           path: ./public
           # Neuer Schritt zum Sammeln der JSON-URLs
       - name: Collect JSON URLs
+        id: collect_urls
         run: |
-          BASE_URL="${{ steps.pages.outputs.base_url }}"
-          echo "Collecting JSON URLs..."
-          find public/projects -name "*.json" > json_urls.txt
-          cat json_urls.txt | while read line; do
-            echo "${BASE_URL}/${line}" >> full_json_urls.txt
-          done
+          urls=$(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}" \;)
+          echo "::set-output name=jsonUrls::$urls"
 
   # Deployment job
   deploy:
@@ -94,7 +91,8 @@ jobs:
           echo "Waiting for deployment to complete..."
           sleep 10
           echo "Sending JSON URLs to API..."
-          cat full_json_urls.txt | while read url; do
+          for url in ${{ needs.build-and-deploy.outputs.jsonUrls }}
+          do
               curl -X 'POST' \
                 'https://test-index.murmurations.network/v2/nodes' \
                 -H 'accept: application/json' \
@@ -103,6 +101,7 @@ jobs:
                 "profile_url": $url
               }'
           done
+
 
 
 
