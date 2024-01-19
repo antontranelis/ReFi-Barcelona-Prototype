@@ -87,7 +87,7 @@ jobs:
 
           # Gehe durch alle JSON-Dateien im 'public/projects'-Verzeichnis
           # (Anpassen, falls die Dateien an einem anderen Ort gespeichert sind)
-          for jsonFile in $(find projects -name "*.json"); do
+          for jsonFile in $(find public/projects -name "*.json"); do
               # Erstelle die vollständige URL
               url="${BASE_URL}/${jsonFile}"
               # Senden der URL an Ihre API
