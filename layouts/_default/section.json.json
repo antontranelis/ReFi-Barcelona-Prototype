@@ -1,5 +1,9 @@
   [{{ range $index, $element := .Pages }}
         {
-          "name": "{{ $element.Params.Name }}"
+          "name": "{{ $element.Params.Name }}",
+          "description": "{{ $element.Params.Description }}",
+          "image": "{{ $element.Params.Image }}",
+          "longitude": "{{ $element.Params.Longitude }}",
+          "latitude": "{{ $element.Params.Latitude }}",
         },{{ if lt $index (sub (len .Pages) 1) }},{{ end }}
   {{ end }}]
