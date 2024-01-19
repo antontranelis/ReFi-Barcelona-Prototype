@@ -7,7 +7,7 @@
 		<h2 style="position: relative;top: 8px;">{{.Params.Name}}</h1>
 
 		{{ range .Params.tags }}
-		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+		<a href="{{ "tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
 		{{ end }}
 
 		<div>
