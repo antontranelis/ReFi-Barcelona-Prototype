@@ -64,8 +64,15 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
-      - name: List files in working directory
-        run: ls -la
+          # Neuer Schritt zum Sammeln der JSON-URLs
+      - name: Collect JSON URLs
+        run: |
+          BASE_URL="${{ steps.pages.outputs.base_url }}"
+          echo "Collecting JSON URLs..."
+          find public/projects -name "*.json" > json_urls.txt
+          cat json_urls.txt | while read line; do
+            echo "${BASE_URL}/${line}" >> full_json_urls.txt
+          done
 
   # Deployment job
   deploy:
@@ -84,17 +91,10 @@ jobs:
       # Neuer Schritt zum Sammeln und Senden der JSON-URLs nach dem Deployment
       - name: Collect and send JSON URLs to Murmurations
         run: |
-          BASE_URL="${{ steps.deployment.outputs.page_url }}"
-
           echo "Waiting for deployment to complete..."
           sleep 10
-
-          # Gehe durch alle JSON-Dateien im 'public/projects'-Verzeichnis
-          # (Anpassen, falls die Dateien an einem anderen Ort gespeichert sind)
-          for jsonFile in $(find public/projects -name "*.json"); do
-              # Erstelle die vollständige URL
-              url="${BASE_URL}/${jsonFile}"
-              # Senden der URL an Ihre API
+          echo "Sending JSON URLs to API..."
+          cat full_json_urls.txt | while read url; do
               curl -X 'POST' \
                 'https://test-index.murmurations.network/v2/nodes' \
                 -H 'accept: application/json' \
@@ -103,3 +103,6 @@ jobs:
                 "profile_url": $url
               }'
           done
+
+
+
