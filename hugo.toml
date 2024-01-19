@@ -13,6 +13,8 @@ theme = "smol"
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS", "JSON"]
   page = ["HTML", "JSON"]
+  taxonomy = ["HTML"]
+
 
 [[menu.main]]
   identifier = "map"
