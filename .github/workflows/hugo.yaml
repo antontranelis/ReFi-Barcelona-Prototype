@@ -70,12 +70,16 @@ jobs:
       - name: Collect JSON URLs
         id: collect_urls
         run: |
-          {
-            echo 'jsonUrls<<EOF'
-            find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \;
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
-          echo "Saved URLs: $jsonUrls"
+          echo 'Collecting JSON URLs...'
+          urls=$(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \;)
+          echo "Collected URLs: $urls"
+          if [ -z "$urls" ]; then
+            echo "No URLs found"
+          else
+            echo 'JSON_URLS<<EOF' >> "$GITHUB_ENV"
+            echo "$urls" >> "$GITHUB_ENV"
+            echo 'EOF' >> "$GITHUB_ENV"
+          fi
 
 
 
