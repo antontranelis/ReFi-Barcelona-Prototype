@@ -6,8 +6,8 @@
   "name": "{{ .Params.Name }}",
   "description": "{{ .Params.Description }}",
   {{ if .Params.Latitude }}"geolocation": {"lat": {{ .Params.Latitude }}, "lon": {{ .Params.Longitude }}},{{ end }}
-  "tags": [{{ range $index2, $tag := .Params.Tags }}{{ with $originalContext.Params.Tags }}"{{ $tag }}"{{ if lt $index2 (sub (len $originalContext.Params.Tags) 1) }},{{ end }}{{ end }}{{ end }}],
-  "urls": [{{ range $index2, $url := .Params.urls }}{{ with $originalContext.Params.Tags }}{"name": "{{ $url.name }}", "url": "{{ $url.url }}" }{{ if lt $index2 (sub (len $originalContext.Params.urls) 1) }},{{ end }}{{ end }}{{ end }}],
-  "image": "{{ .Params.Image }}",
-  "header_image": "{{ .Params.Header_Image }}",
+  {{ if .Params.Tags }}"tags": [{{ range $index2, $tag := .Params.Tags }}{{ with $originalContext.Params.Tags }}"{{ $tag }}"{{ if lt $index2 (sub (len $originalContext.Params.Tags) 1) }},{{ end }}{{ end }}{{ end }}],{{ end }}
+  {{ if .Params.Urls }}"urls": [{{ range $index2, $url := .Params.urls }}{{ with $originalContext.Params.urls }}{"name": "{{ $url.name }}", "url": "{{ $url.url }}" }{{ if lt $index2 (sub (len $originalContext.Params.urls) 1) }},{{ end }}{{ end }}{{ end }}],{{ end }}
+  {{ if .Params.Image }}"image": "{{ .Params.Image }}",{{ end }}
+  {{ if .Params.Header_Image }}"header_image": "{{ .Params.Header_Image }}",{{ end }}
 }
