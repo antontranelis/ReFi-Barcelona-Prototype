@@ -73,17 +73,14 @@ jobs:
           echo 'Collecting JSON URLs...'
           urls=$(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \;)
           echo "Collected URLs: $urls"
-          if [ -z "$urls" ]; then
-            echo "No URLs found"
-          else
-            echo 'JSON_URLS<<EOF' >> "$GITHUB_OUTPUT"
-            echo "$urls" >> "$GITHUB_OUTPUT"
-            echo 'EOF' >> "$GITHUB_OUTPUT"
-          fi
+          {
+            echo 'jsonUrls<<EOF'
+            $urls
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
       - name: Check JSON URLs Variable
         run: |
-          echo "JSON URLs:"
-          echo "$JSON_URLS"
+          echo "$jsonUrls"
 
 
 
