@@ -74,7 +74,7 @@ jobs:
           echo "Collected URLs: $urls"
           {
             echo 'jsonUrls<<EOF'
-            $urls
+            echo $urls
             echo EOF
           } >> "$GITHUB_ENV"
           echo "Saved URLs: $jsonUrls"
