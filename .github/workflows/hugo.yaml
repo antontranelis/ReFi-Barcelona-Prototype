@@ -110,6 +110,6 @@ jobs:
               -H 'accept: application/json' \
               -H 'Content-Type: application/json' \
               -d '{
-              "profile_url": $url
+              "profile_url": "$url"
             }'          
           done < urls.txt
