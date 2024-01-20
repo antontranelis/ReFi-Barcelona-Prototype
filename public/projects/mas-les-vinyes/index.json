@@ -1,6 +1,15 @@
+
+
 {
-  "name": "",
+  "linked_schemas":["organizations_schema-v1.0.0"],
+  "primary_url": "https://www.maslesvinyes.com/",
+  "name": "Mas Les Vinyes",
   "description": "Explore the practices of Mas Les Vinyes in regenerative agriculture and sustainable farming. Learn how the farm contributes to ecological balance, biodiversity, and sustainable food production.",
-  "tags": ["MasLesVinyes","RegenerativeAgriculture","SustainableFarming",],
+  "longitude": "<no value>",
+  "latitude": "<no value>",
+  "tags": ["MasLesVinyes","RegenerativeAgriculture","SustainableFarming"],
+  "URLs": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
+  "image": "<no value>",
+  "header_image": "<no value>",
   "content": "Regenerative Agriculture Practices Details Mas Les Vinyes\u0026rsquo;s regenerative agriculture practices, emphasizing soil health, crop rotation, and permaculture principles. Discusses the ecological benefits of regenerative agriculture. Sustainable Farming Techniques\nExplores sustainable farming techniques employed at Mas Les Vinyes, including organic farming, agroforestry, and water conservation methods. Showcases the farm\u0026rsquo;s commitment to minimizing environmental impact. Biodiversity Conservation Efforts\nHighlights initiatives to conserve biodiversity on the farm, such as habitat restoration, protection of native species, and pollinator-friendly practices. Discusses the interconnectedness of sustainable farming and biodiversity. Community Engagement and Education\nShowcases how Mas Les Vinyes engages with the local community and provides educational programs on regenerative agriculture and sustainable living. Relevant Links:\nRegenerative Agriculture Practices Sustainable Farming Techniques Biodiversity Conservation Gallery/Images:\nImages showcasing regenerative agriculture practices. Visuals capturing community engagement events at Mas Les Vinyes. References:\nRegenerative Agriculture Case Studies Community Workshop Feedback External Links:\nMas Les Vinyes\n"
 }

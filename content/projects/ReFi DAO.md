@@ -1,5 +1,6 @@
 ---
 uuid: ccddbb6f-3336-4836-8ac7-ab35bcbf1707
+primary_url: https://www.refidao.com/
 Name: ReFi DAO
 Description: ReFi DAO is a network society to regenerate the earth. 
 tags:

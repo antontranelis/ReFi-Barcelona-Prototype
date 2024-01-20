@@ -1,5 +1,6 @@
 ---
 uuid: 18d5f42f-d4d5-4bb7-9e21-ebd10c74f324
+primary_url: https://akasha.barcelona/
 Name: AKASHAHub
 Description: AKASHA Hub serves as a beacon in the intersection of technology, sustainability, and community-driven innovation. Established in 2017, it has been instrumental in fostering the growth of the web3 ecosystem and aligns closely with the regenerative finance movement.
 tags:

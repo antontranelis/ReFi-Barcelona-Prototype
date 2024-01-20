@@ -1,6 +1,15 @@
+
+
 {
-  "name": "",
-  "description": "",
+  "linked_schemas":["organizations_schema-v1.0.0"],
+  "primary_url": "<no value>",
+  "name": "Karte",
+  "description": "<no value>",
+  "longitude": "<no value>",
+  "latitude": "<no value>",
   "tags": [],
+  "URLs": [],
+  "image": "<no value>",
+  "header_image": "<no value>",
   "content": "test\n"
 }

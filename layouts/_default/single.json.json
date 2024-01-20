@@ -1,6 +1,8 @@
 {{ $originalContext := . }}
 
 {
+  "linked_schemas":["organizations_schema-v1.0.0"],
+  "primary_url": "{{ .Params.Primary_url }}",
   "name": "{{ .Params.Name }}",
   "description": "{{ .Params.Description }}",
   "longitude": "{{ .Params.Longitude }}",

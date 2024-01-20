@@ -1,6 +1,15 @@
+
+
 {
-  "name": "",
+  "linked_schemas":["organizations_schema-v1.0.0"],
+  "primary_url": "https://refibcn.cat/",
+  "name": "ReFi Barcelona",
   "description": "ReFi Barcelona (ReFi BCN) is an initiative aimed at integrating regenerative finance principles within the unique context of Barcelona.",
-  "tags": ["Barcelona","ReFi","ReFi DAO","ReFiBCN","LocalNode","Web3",],
+  "longitude": "2.174606323242188",
+  "latitude": "41.38324879874266",
+  "tags": ["Barcelona","ReFi","ReFi DAO","ReFiBCN","LocalNode","Web3"],
+  "URLs": [{"name": "telegram", "url": "https://t.me/xyz" },{"name": "twitter", "url": "https://twitter.com/ReFiBarcelona" }],
+  "image": "https://pbs.twimg.com/profile_images/1678406999510269958/DFoyNrzy_400x400.jpg",
+  "header_image": "https://pbs.twimg.com/profile_banners/1672239059626762240/1690210870/1500x500",
   "content": "ReFi Barcelona Page under construction 🚧 👷 🏗️.Q\n"
 }

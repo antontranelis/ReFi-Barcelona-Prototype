@@ -1,25 +1,67 @@
   [
         {
-          "name": "AKASHAHub"
+          "name": "AKASHAHub",
+          "description": "AKASHA Hub serves as a beacon in the intersection of technology, sustainability, and community-driven innovation. Established in 2017, it has been instrumental in fostering the growth of the web3 ecosystem and aligns closely with the regenerative finance movement.",
+          "longitude": "2.191203832626343",
+          "latitude": "41.41091844029827",
+          "tags": ["Web3","Technology","Sustainability","Community","EthereumFoundation"],
+          "URLs": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
+          "image": "https://freepngdesign.com/content/uploads/images/p-519-7-akasha-logo-png-transparent-logo-140992868012.png",
+          "header_image": "https://pbs.twimg.com/profile_banners/1672239059626762240/1690210870/1500x500"
         },
   
         {
-          "name": "Coop 57"
+          "name": "Coop 57",
+          "description": "Explore the impact of Coop 57 in the realm of community finance and social investment. Learn how they contribute to economic empowerment and sustainable development.",
+          "longitude": "2.1389651298522954",
+          "latitude": "41.37642615680807",
+          "tags": ["CommunityFinance","SocialInvestment","EconomicEmpowerment"],
+          "URLs": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
+          "image": "https://dineretic.org/wp-content/uploads/2018/11/logo-coop57-280x160px.png",
+          "header_image": "https://pbs.twimg.com/profile_banners/1672239059626762240/1690210870/1500x500"
         },
   
         {
-          "name": "Mas Les Vinyes"
+          "name": "Mas Les Vinyes",
+          "description": "Explore the practices of Mas Les Vinyes in regenerative agriculture and sustainable farming. Learn how the farm contributes to ecological balance, biodiversity, and sustainable food production.",
+          "longitude": "<no value>",
+          "latitude": "<no value>",
+          "tags": ["MasLesVinyes","RegenerativeAgriculture","SustainableFarming"],
+          "URLs": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
+          "image": "<no value>",
+          "header_image": "<no value>"
         },
   
         {
-          "name": "Plastiks"
+          "name": "Plastiks",
+          "description": "Plastiks is pioneering the use of blockchain technology to tackle plastic waste. Based in Barcelona, it has gained traction through innovative solutions and significant partnerships, including one with FC Barcelona.",
+          "longitude": "<no value>",
+          "latitude": "<no value>",
+          "tags": ["Plastiks","ReFiProject","Sustainability","Partnerships","FCBarcelona"],
+          "URLs": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
+          "image": "<no value>",
+          "header_image": "<no value>"
         },
   
         {
-          "name": "ReFi Barcelona"
+          "name": "ReFi Barcelona",
+          "description": "ReFi Barcelona (ReFi BCN) is an initiative aimed at integrating regenerative finance principles within the unique context of Barcelona.",
+          "longitude": "2.174606323242188",
+          "latitude": "41.38324879874266",
+          "tags": ["Barcelona","ReFi","ReFi DAO","ReFiBCN","LocalNode","Web3"],
+          "URLs": [{"name": "telegram", "url": "https://t.me/xyz" },{"name": "twitter", "url": "https://twitter.com/ReFiBarcelona" }],
+          "image": "https://pbs.twimg.com/profile_images/1678406999510269958/DFoyNrzy_400x400.jpg",
+          "header_image": "https://pbs.twimg.com/profile_banners/1672239059626762240/1690210870/1500x500"
         },
   
         {
-          "name": "ReFi DAO"
+          "name": "ReFi DAO",
+          "description": "ReFi DAO is a network society to regenerate the earth.",
+          "longitude": "<no value>",
+          "latitude": "<no value>",
+          "tags": ["ReFi DAO","ReFi","Regeneration","Finance","Web3","DAO"],
+          "URLs": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
+          "image": "https://pbs.twimg.com/profile_images/1678406999510269958/DFoyNrzy_400x400.jpg",
+          "header_image": "https://pbs.twimg.com/profile_banners/1672239059626762240/1690210870/1500x500"
         },
   ]

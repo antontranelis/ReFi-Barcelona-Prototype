@@ -1,5 +1,6 @@
 ---
 uuid: e48d2473-a2d6-4bb1-8092-bcbbc015141d
+primary_url: https://www.maslesvinyes.com/
 Name: Mas Les Vinyes
 Description: Explore the practices of Mas Les Vinyes in regenerative agriculture and sustainable farming. Learn how the farm contributes to ecological balance, biodiversity, and sustainable food production.
 tags:

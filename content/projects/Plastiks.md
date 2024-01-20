@@ -1,6 +1,7 @@
 ---
 uuid: e48d2473-a2d6-4bb1-8092-bcbbc015141d
 Name: Plastiks
+primary_url: https://www.plastiks.io/
 Description: Plastiks is pioneering the use of blockchain technology to tackle plastic waste. Based in Barcelona, it has gained traction through innovative solutions and significant partnerships, including one with FC Barcelona.
 tags:
   - Plastiks
