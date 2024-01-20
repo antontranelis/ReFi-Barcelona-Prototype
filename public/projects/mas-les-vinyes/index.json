@@ -5,7 +5,7 @@
   "primary_url": "https://www.maslesvinyes.com/",
   "name": "Mas Les Vinyes",
   "description": "Explore the practices of Mas Les Vinyes in regenerative agriculture and sustainable farming. Learn how the farm contributes to ecological balance, biodiversity, and sustainable food production.",
-  "geolocation": {"lat": "<no value>", "lon": "<no value>"},
+  "geolocation": {"lat": <no value>, "lon": <no value>},
   "tags": ["MasLesVinyes","RegenerativeAgriculture","SustainableFarming"],
   "urls": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
   "image": "<no value>",

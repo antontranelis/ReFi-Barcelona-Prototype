@@ -5,7 +5,7 @@
   "primary_url": "https://akasha.barcelona/",
   "name": "AKASHAHub",
   "description": "AKASHA Hub serves as a beacon in the intersection of technology, sustainability, and community-driven innovation. Established in 2017, it has been instrumental in fostering the growth of the web3 ecosystem and aligns closely with the regenerative finance movement.",
-  "geolocation": {"lat": "41.41091844029827", "lon": "2.191203832626343"},
+  "geolocation": {"lat": 41.41091844029827, "lon": 2.191203832626343},
   "tags": ["Web3","Technology","Sustainability","Community","EthereumFoundation"],
   "urls": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
   "image": "https://freepngdesign.com/content/uploads/images/p-519-7-akasha-logo-png-transparent-logo-140992868012.png",

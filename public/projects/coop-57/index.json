@@ -5,7 +5,7 @@
   "primary_url": "https://coop57.coop/",
   "name": "Coop 57",
   "description": "Explore the impact of Coop 57 in the realm of community finance and social investment. Learn how they contribute to economic empowerment and sustainable development.",
-  "geolocation": {"lat": "41.37642615680807", "lon": "2.1389651298522954"},
+  "geolocation": {"lat": 41.37642615680807, "lon": 2.1389651298522954},
   "tags": ["CommunityFinance","SocialInvestment","EconomicEmpowerment"],
   "urls": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
   "image": "https://dineretic.org/wp-content/uploads/2018/11/logo-coop57-280x160px.png",

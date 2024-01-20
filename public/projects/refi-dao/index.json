@@ -5,7 +5,7 @@
   "primary_url": "https://www.refidao.com/",
   "name": "ReFi DAO",
   "description": "ReFi DAO is a network society to regenerate the earth.",
-  "geolocation": {"lat": "<no value>", "lon": "<no value>"},
+  "geolocation": {"lat": <no value>, "lon": <no value>},
   "tags": ["ReFi DAO","ReFi","Regeneration","Finance","Web3","DAO"],
   "urls": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
   "image": "https://pbs.twimg.com/profile_images/1678406999510269958/DFoyNrzy_400x400.jpg",

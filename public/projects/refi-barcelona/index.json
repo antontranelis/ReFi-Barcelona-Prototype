@@ -5,7 +5,7 @@
   "primary_url": "https://refibcn.cat/",
   "name": "ReFi Barcelona",
   "description": "ReFi Barcelona (ReFi BCN) is an initiative aimed at integrating regenerative finance principles within the unique context of Barcelona.",
-  "geolocation": {"lat": "41.38324879874266", "lon": "2.174606323242188"},
+  "geolocation": {"lat": 41.38324879874266, "lon": 2.174606323242188},
   "tags": ["Barcelona","ReFi","ReFi DAO","ReFiBCN","LocalNode","Web3"],
   "urls": [{"name": "telegram", "url": "https://t.me/xyz" },{"name": "twitter", "url": "https://twitter.com/ReFiBarcelona" }],
   "image": "https://pbs.twimg.com/profile_images/1678406999510269958/DFoyNrzy_400x400.jpg",
