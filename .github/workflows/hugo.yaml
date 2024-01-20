@@ -70,14 +70,12 @@ jobs:
       - name: Collect JSON URLs
         id: collect_urls
         run: |
-          urls=$(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}" \;)
-          echo "Collected URLs: $urls"
           {
-            echo 'jsonUrls<<EOF'
-            echo $urls
-            echo EOF
+            echo 'JSON_URLS<<EOF'
+            find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \;
+            echo 'EOF'
           } >> "$GITHUB_ENV"
-          echo "Saved URLs: $jsonUrls"
+          echo "Saved URLs: $JSON_URLS"
 
 
   # Deployment job
