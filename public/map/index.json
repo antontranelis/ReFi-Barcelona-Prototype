@@ -5,11 +5,9 @@
   "primary_url": "<no value>",
   "name": "Karte",
   "description": "<no value>",
-  "longitude": "<no value>",
-  "latitude": "<no value>",
+  "geolocation": {"lat": "<no value>", "lon": "<no value>"},
   "tags": [],
-  "URLs": [],
+  "urls": [],
   "image": "<no value>",
   "header_image": "<no value>",
-  "content": "test\n"
 }

@@ -5,11 +5,9 @@
   "primary_url": "https://coop57.coop/",
   "name": "Coop 57",
   "description": "Explore the impact of Coop 57 in the realm of community finance and social investment. Learn how they contribute to economic empowerment and sustainable development.",
-  "longitude": "2.1389651298522954",
-  "latitude": "41.37642615680807",
+  "geolocation": {"lat": "41.37642615680807", "lon": "2.1389651298522954"},
   "tags": ["CommunityFinance","SocialInvestment","EconomicEmpowerment"],
-  "URLs": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
+  "urls": [{"name": "telegram", "url": "https://t.me/akashabarcelona" },{"name": "twitter", "url": "https://twitter.com/AKASHAworldBCN" }],
   "image": "https://dineretic.org/wp-content/uploads/2018/11/logo-coop57-280x160px.png",
   "header_image": "https://pbs.twimg.com/profile_banners/1672239059626762240/1690210870/1500x500",
-  "content": "Summary: Explore the impact of Coop 57 in the realm of community finance and social investment. Learn how they contribute to economic empowerment and sustainable development.\nMain Content:\nCommunity Finance Model\nIntroduces Coop 57\u0026rsquo;s unique community finance model, emphasizing the role of social investment in supporting local initiatives and businesses. Describes the principles that guide their financial practices. Social Investment Projects\nDetails specific projects funded by Coop 57, showcasing the diversity of initiatives they support. Includes information on the social impact and outcomes of these projects. Economic Empowerment\nExplores how Coop 57 contributes to economic empowerment by providing accessible and ethical financial solutions to individuals and organizations. Highlights success stories of economic empowerment through community finance. Collaborations and Networks\nHighlights Coop 57\u0026rsquo;s collaborations with other organizations, networks, and institutions that share a common goal of fostering economic sustainability. Showcases the interconnectedness of the community finance ecosystem. Relevant Links:\nSocial Investment Community Empowerment Coop Fund Gallery/Images:\nVisuals of projects funded by Coop 57. Images of individuals and businesses impacted by community finance. References:\nCoop 57 Annual Report Collaborative Networks External Links:\nCoop 57 Community Finance\n"
 }
