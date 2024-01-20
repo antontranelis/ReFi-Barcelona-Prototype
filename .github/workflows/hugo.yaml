@@ -67,20 +67,16 @@ jobs:
         with:
           path: ./public
           # Neuer Schritt zum Sammeln der JSON-URLs
-      - name: Collect JSON URLs
-        id: collect_urls
+      - name: Collect JSON URLs and save to file
         run: |
-          echo 'Collecting JSON URLs...'
-          urls=$(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \;)
-          echo "Collected URLs: $urls"
-          {
-            echo 'jsonUrls<<EOF'
-            find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \;
-            echo EOF
-          } >> "$GITHUB_OUTPUT"
-      - name: Check JSON URLs Variable
-        run: |
-          echo "$jsonUrls"
+          find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \; > urls.txt
+
+      - name: Upload URLs as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: json-urls
+          path: urls.txt
+
 
 
 
@@ -97,6 +93,20 @@ jobs:
         uses: actions/deploy-pages@v3
       - name: List files in working directory
         run: ls -la
+
+
+      - name: Download URLs artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: json-urls
+
+      - name: Send JSON URLs to API
+        run: |
+          while IFS= read -r url
+          do
+            echo "Sending URL: $url"
+            # Ihr `curl`-Befehl zum Senden der URL an Ihre API
+          done < urls.txt
 
       # Neuer Schritt zum Sammeln und Senden der JSON-URLs nach dem Deployment
       - name: Collect and send JSON URLs to Murmurations
