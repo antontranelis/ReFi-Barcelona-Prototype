@@ -76,9 +76,9 @@ jobs:
           if [ -z "$urls" ]; then
             echo "No URLs found"
           else
-            echo 'JSON_URLS<<EOF' >> "$GITHUB_ENV"
-            echo "$urls" >> "$GITHUB_ENV"
-            echo 'EOF' >> "$GITHUB_ENV"
+            echo 'JSON_URLS<<EOF' >> "$GITHUB_OUTPUT"
+            echo "$urls" >> "$GITHUB_OUTPUT"
+            echo 'EOF' >> "$GITHUB_OUTPUT"
           fi
 
 
