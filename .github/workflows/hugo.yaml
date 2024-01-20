@@ -104,8 +104,9 @@ jobs:
         run: |
           while IFS= read -r url
           do
-            echo "Sending URL: $url"
             trimmed=$(echo "$url" | xargs)
+              echo "Sending URL: $trimmed"
+
             curl -i -X 'POST' \
               'https://test-index.murmurations.network/v2/nodes' \
               -H 'accept: application/json' \
