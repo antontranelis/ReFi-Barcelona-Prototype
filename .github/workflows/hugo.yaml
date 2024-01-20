@@ -109,5 +109,5 @@ jobs:
               'https://test-index.murmurations.network/v2/nodes' \
               -H 'accept: application/json' \
               -H 'Content-Type: application/json' \
-              -d '{"profile_url": $url}'          
+              -d '{"profile_url" : "$url"}'          
           done < urls.txt
