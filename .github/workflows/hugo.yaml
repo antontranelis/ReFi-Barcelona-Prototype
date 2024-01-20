@@ -75,7 +75,7 @@ jobs:
           echo "Collected URLs: $urls"
           {
             echo 'jsonUrls<<EOF'
-            $urls
+            $(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \;)
             echo EOF
           } >> "$GITHUB_OUTPUT"
       - name: Check JSON URLs Variable
