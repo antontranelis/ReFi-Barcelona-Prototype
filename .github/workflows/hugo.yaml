@@ -71,7 +71,7 @@ jobs:
         id: collect_urls
         run: |
           urls=$(find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}" \;)
-          echo urls
+          echo "Collected URLs: $urls"
           echo "jsonUrls=$urls" >> $GITHUB_OUTPUT
 
   # Deployment job
