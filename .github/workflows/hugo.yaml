@@ -105,22 +105,6 @@ jobs:
           while IFS= read -r url
           do
             echo "Sending URL: $url"
-            # Ihr `curl`-Befehl zum Senden der URL an Ihre API
-          done < urls.txt
-
-      # Neuer Schritt zum Sammeln und Senden der JSON-URLs nach dem Deployment
-      - name: Collect and send JSON URLs to Murmurations
-        run: |
-          echo "Waiting for deployment to complete..."
-          sleep 10
-          echo "urls=${{ needs.build.outputs.jsonUrls }}"
-          echo "Sending JSON URLs to API..."
-          for url in ${{ needs.build.outputs.jsonUrls }}
-          do
-            echo "Sending URL: $url"
             response=$(curl -s -X 'POST' \ 'https://test-index.murmurations.network/v2/nodes' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d '{ "profile_url": $url }')
             echo "API Response: $response"
-          done
-
-
-
+          done < urls.txt
