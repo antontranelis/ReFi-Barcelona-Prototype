@@ -69,7 +69,7 @@ jobs:
           # Neuer Schritt zum Sammeln der JSON-URLs
       - name: Collect JSON URLs and save to file
         run: |
-            find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}/" \; | sed 's|/public||' > urls.txt
+            find public/projects -name "*.json" -exec echo "${{ steps.pages.outputs.base_url }}/{}" \; | sed 's|/public||' > urls.txt
 
       - name: Upload URLs as artifact
         uses: actions/upload-artifact@v2
