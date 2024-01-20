@@ -80,7 +80,10 @@ jobs:
             echo "$urls" >> "$GITHUB_OUTPUT"
             echo 'EOF' >> "$GITHUB_OUTPUT"
           fi
-
+      - name: Check JSON URLs Variable
+        run: |
+          echo "JSON URLs:"
+          echo "$JSON_URLS"
 
 
 
