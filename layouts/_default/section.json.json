@@ -1,5 +1,6 @@
   {"data" : [{{ range $index, $element := .Pages }}
         {
+          "id": "{{ $element.Params.Uuid }}",
           "name": "{{ $element.Params.Name }}",
           "description": "{{ $element.Params.Description }}",
           "longitude": "{{ $element.Params.Longitude }}",
