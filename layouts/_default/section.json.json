@@ -1,4 +1,4 @@
-  [{{ range $index, $element := .Pages }}
+  {"data" : [{{ range $index, $element := .Pages }}
         {
           "name": "{{ $element.Params.Name }}",
           "description": "{{ $element.Params.Description }}",
@@ -10,3 +10,4 @@
           "header_image": "{{ $element.Params.Header_Image }}"
         },{{ if lt $index (sub (len .Pages) 1) }},{{ end }}
   {{ end }}]
+ }
