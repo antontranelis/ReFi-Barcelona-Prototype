@@ -3,8 +3,7 @@
           "id": "{{ $element.Params.Uuid }}",
           "name": "{{ $element.Params.Name }}",
           "description": "{{ $element.Params.Description }}",
-          "longitude": "{{ $element.Params.Longitude }}",
-          "latitude": "{{ $element.Params.Latitude }}",
+          {{ if and $element.Params.Latitude $element.Params.Longitude }}"geolocation": {"lat": {{ .Params.Latitude }}, "lon": {{ .Params.Longitude }}},{{ end }}
           "tags": [{{ range $index2, $tag := $element.Params.tags }}"{{ $tag }}"{{ if lt $index2 (sub (len $element.Params.tags) 1) }},{{ end }}{{ end }}],
           "URLs": [{{ range $index2, $url := $element.Params.urls }}{"name": "{{ $url.name }}", "url": "{{ $url.url }}" }{{ if lt $index2 (sub (len $element.Params.urls) 1) }},{{ end }}{{ end }}],
           "image": "{{ $element.Params.Image }}",
