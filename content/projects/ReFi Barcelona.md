@@ -24,3 +24,5 @@ header_image: https://pbs.twimg.com/profile_banners/1672239059626762240/16902108
 # ReFi Barcelona
 
 Page under construction 🚧 👷 🏗️.Q
+
+![](/DFoyNrzy_400x400.png)
